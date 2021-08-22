@@ -1,0 +1,31 @@
+@charset "EUC-KR";
+
+#bbs-view-survey-join {
+	width : 100%;
+	padding : 10px 20px;
+	border : 1px solid #fff;
+	text-align : center;
+}
+
+.survey-join{
+	display : inline-block;
+	margin-top : 10px;
+	padding : 20px 40px;
+	text-align : left;
+}
+.survey-join h3{
+	color : #10223b;
+	padding-bottom : 10px;
+	text-align : center;
+}
+
+.survey-join td{
+	border : 1px solid #138396;
+	height : 40px;
+	width : 300px;
+	padding : 4px 10px;
+	color : #138396;
+}
+.survey-join input[type=radio]{
+	margin-right : 7px;
+}

@@ -1,0 +1,52 @@
+@charset "EUC-KR";
+
+#ListTab {
+	border-collapse : collapse;
+	width : 100%; 
+	text-align : center;
+	color : #10223b ;
+}
+#ListTab thead{
+	border-radius : 30px;
+	height : 40px;
+	padding : 10px 15px;
+	background-color : #07CBE5;
+	color : white;
+}
+#ListTab tbody tr{
+	height : 40px;
+	border-bottom : 1px solid #07CBE5;
+}
+#ListTab tbody td:nth-child(2){
+	width : 260px;
+}
+#ListTab tbody a:hover{
+	font-weight : bold;
+	color : #FE0D49;	
+}
+#ListTab tfoot {
+	border-top : 3px solid #07CBE5;
+	padding : 5px;
+}
+#prev, #next {
+	padding : 0 10px;
+	color : gray;
+	font-size : 10pt;
+}
+#prev::before {
+	content : "<";
+	padding-right : 10px;
+	font-weight : bold;
+	font-size : 15pt;
+	color : #FE0D49;	
+}
+#next::after {
+	content : ">";
+	padding-left : 10px;
+	font-weight : bold;
+	font-size : 15pt;
+	color : #FE0D49;	
+}
+#bbs-view-con-holder{
+	padding-bottom : 10px;
+}
