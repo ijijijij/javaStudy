@@ -1,0 +1,151 @@
+@charset "EUC-KR";
+
+.myreview_nav {
+	margin-top : 20px;
+	height: 60px;
+}
+.inner_nav{
+	height : 60px;
+}
+.inner_nav ul {
+	text-align : center;
+}
+.inner_nav_item {
+	display : inline-block;
+	height : 60px;
+	width : 200px;
+}
+
+.inner_nav_item a{
+	color : white;
+	display : block; 
+	padding : 0 15px;
+	border-radius : 40px;
+	background-color : #FEE200;
+	font-weight : 700;
+	position : relative;
+	height : 60px;
+	line-height : 60px;
+}
+.inner_nav_item a:hover{
+	background-color : orange;
+}
+.review_sort {
+	display : flex;
+	margin-top : 20px;
+	justify-content : space-between;
+}
+.count {
+	margin-left : 50px;
+	font-size : 15pt;
+	color : gray;
+}
+.sort{
+	text-align : right;
+}
+
+.review_sort select {
+	z-index: 1;
+	padding: 5px;
+	font-size: 20px;
+	width: 135px;
+	height: 35px;
+	border: 1px solid #FF5E00;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	color: #949494;
+	-webkit-transition: border-color ease-in-out .30s, -webkit-box-shadow
+		ease-in-out .30s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.no_list{
+	margin : 20px auto;
+	border : 1px solid orange;
+	background-color : white;
+	height : 100px;
+	text-align : center;
+	font-size : 15pt;
+	line-height : 100px;
+}
+.review_list{
+	margin : 20px auto;
+	text-align : center;
+}
+
+.review_box{
+	margin-top : 10px;
+	padding : 10px 10px;
+	height : 200px;
+	background-color : white;
+	border : none;
+}
+.box_container{
+	margin : 0 auto;
+	width : 95%;
+	height : 98%;
+	display : flex;
+}
+
+.restThumb{
+	width : 250px;
+}
+#thumbnail{
+	width : 250px;
+	height : 140px;
+	border : 1px solid black;
+}
+.grade{
+	display : flex;
+	height : 30px;
+	font-size : 18pt;
+	text-align : left;
+	padding-left : 10px;
+}
+.star{
+	margin-left : 10px;
+	color : #FEE200;
+}
+.revCon{
+	text-align :left;
+	padding-left : 10px;
+	width : 700px;
+}
+.restName{
+	font-size : 22pt;
+	font-weight : medium;
+	display : flex;
+	justify-content : space-between;
+}
+.restName > a:hover{
+	text-decoration : underline;
+}
+.update{
+	display : flex;
+	height : 13px;
+	text-align : right;
+	font-size : 13pt;
+}
+.edit > a:hover{
+	text-decoration : underline;
+}
+
+button{
+	border : none;
+	background-color : white;
+	font-size : 13pt;
+	margin-left : 10px;
+}
+
+button:hover{
+	cursor : pointer;
+	text-decoration : underline;
+}
+.postDate{
+	font-size : 13pt;
+	color : gray;
+}
+.text{
+	margin-top : 5px;
+}
