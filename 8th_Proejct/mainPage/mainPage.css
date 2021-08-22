@@ -1,0 +1,52 @@
+@charset "EUC-KR";
+
+.main-slider {
+	width : 100%;
+	position : relative;
+	margin : 0 auto;
+}
+.main-slide {
+	display : none;
+	text-align : center;
+}
+.main-slide img{
+	width : 100%;
+	height : 200px;
+	vertical-align : middle;
+}
+.main-dots {
+	text-align : center;
+}
+.main-dots .dot{
+	height : 15px;
+	width : 15px;
+	background-color : #bbb;
+	border-radius : 50%;
+	display : inline-block;
+	transition : background-color 0.6s ease;
+}
+.main-dots .active{
+	background-color : #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
