@@ -1,0 +1,24 @@
+@charset "EUC-KR";
+*{
+	margin : 0;
+	padding : 0;
+}
+
+.title{
+	height: 80px;
+	border-bottom : 1px solid orange;
+	font-size : 20pt;
+	font-weight : bold;
+}
+.container{
+	height : 100px;
+	padding-top : 20px;
+	font-size : 13pt;
+}
+	
+	
+.btn_wrap input{
+	width : 80px;
+	height : 40px;
+	background-color : orange;
+}

@@ -1,0 +1,134 @@
+@charset "EUC-KR";
+
+
+.profile_wrap{
+	width : 70%;
+	margin : 30px auto;
+	border : 1px solid orange;
+	background-color : white; 
+}
+.profile{
+	margin : 0 auto; 
+	display : flex;
+	flex-wrap : wrap; 
+	padding : 50px 50px; 
+} 
+.profile_img > img{
+	padding : 10px; 
+	width : 200px;
+	height : 200px; 
+}
+.profile_img .img{
+	text-align : center;
+	font-size : 13pt;
+}
+.profile_img span{
+	text-align : center;
+	font-size : 10pt;
+}
+.profile_img .etc{
+	margin-top : 15px; 
+}
+.profile_img .cnt::after{
+	content:"|";
+	padding : 20px;
+	color : #FEE200;
+	font-weight : 600;
+}
+#imgChgBtn{
+	background-color : #FEE200;
+	padding : 6px 25px;
+	border-radius : 50px;
+	border : none;
+	color : white;
+	font-weight : 600;
+	cursor : pointer;
+	font-size : 12pt;
+}
+
+.profile_info {
+	margin-left : 30px;
+}
+.profile_info div {
+	padding : 10px; 
+}
+.profile_title  .title{ 
+	font-family : 'Italianno', cursive;
+	font-weight : 400;
+	font-size : 30pt;
+}
+.profile_info span {
+	font-size : 10pt; 
+}
+.profile_info .head {
+	font-size : 11pt;
+	font-weight : 550;
+	color : #7F7F7F;
+}
+.profile_info .head::after{
+	content : "|";
+	padding : 20px;
+	color : #FEE200;
+	font-weight : 600;
+} 
+
+.profile_out {
+	text-align : right;
+}
+input[type=text]{
+	width : 200px;
+	height : 30px;
+	border : 1px solid #FEE200;
+	padding : 3px 10px;
+}
+input[type=button]{
+	background-color : #FEE200;
+	width : 50px;
+	height : 30px;
+	border-radius : 50px;
+	border : none;
+	color : white;
+	font-weight : 600;
+	cursor : pointer;
+}
+.profile_pw input[type=button]{
+	width : 100px;
+}
+.img input[type=button]{
+	width : 200px;
+}
+.btn_wrap {
+	text-align : center;
+}
+.btn_wrap input{
+	width : 80px;
+	height : 45px;
+	border-radius : 30px;
+	font-size : 13pt;
+	cursor : pointer;
+	font-weight : 600;
+}
+.btn_wrap input[type=button]{
+	background-color : white;
+	border : 1px solid orange;
+	color : black;
+}
+
+.btn_wrap input[type=submit]{
+	background-color : 	#FEE200;
+	border : none;
+	color : white;
+}
+input[name=outbtn]{
+	background-color : white;
+	color : black;
+	font-size : 9pt;
+	font-weight : normal;
+	
+}
+input[name=outbtn]:hover{
+	text-decoration : underline; 
+}
+input[type=file]{
+	display: none;
+}

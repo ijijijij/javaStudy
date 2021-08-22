@@ -1,0 +1,48 @@
+@charset "EUC-KR";
+*{
+	margin : 0;
+	padding : 0;
+}
+
+.title {
+	height : 80px;
+	background-color : #FEE200;
+}
+
+.title h2{
+	padding : 30px 20px;
+}
+.input_wrap{
+	height : 50px;
+	text-align : center;
+	padding-top : 10px;
+}
+input[type=file]{
+	border : 1px solid orange;
+	padding : 4px 3px;
+	height : 25px;
+}
+
+.btn_wrap{
+	height : 70px;
+	text-align : center;
+	padding-bottom : 20px;
+	border-top : 1px solid orange;
+}
+.btns input{
+	margin-top : 10px;
+	width : 80px;
+	height : 50px;
+	font-size : 12pt;
+	border : none;
+	border-radius : 30px;
+	cursor : pointer;
+}
+
+input[name=chgbtn] {
+	background-color : #FEE200;
+}
+
+input[name=cancelbtn]{
+	margin-left : 15px;
+}
