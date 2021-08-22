@@ -1,0 +1,160 @@
+@charset "EUC-KR";
+
+article {
+	max-width: 1100px;
+}
+
+#percent {
+	background-color: #D5D5D5;
+	height: 10px;
+	width: 300px;
+}
+
+#percent_num {
+	background-color: #138396;
+	height: 10px;
+	width: 200px;
+}
+
+.funding-introduction {
+	display: flex;
+	padding : 10px 0;
+}
+
+.funding-detail-img img{
+	width : 300px;
+	height : 200px;
+}
+.funding-detail-desc {
+	padding-left : 40px;
+}
+.funding-detail-desc h2{
+	color : #138396;
+}
+.funding-detail-desc h3{
+	padding-top : 10px;
+	padding-bottom : 4px;
+	color : #07CBE5;
+}
+#percent {
+	background-color: #D5D5D5; 
+	height: 10px; 
+	width:300px;
+	}
+#percent_num {
+	background-color: #138396;
+	height: 10px; 
+	width:200px;
+	}
+#percent-num{
+	color : #138396;
+	font-size : 15pt;
+	font-weight : bold;
+}	
+.funding-current{
+	padding : 20px 0;
+}
+.funding-current h4{
+	padding : 5px 0;
+	color: #07CBE5;
+}
+.funding-current span{
+	font-size : 20pt;
+}
+#last_day{
+	float : right;
+}
+
+.support-detail-tab{
+	padding-top :20px; 
+	display : flex;
+}
+.supporter-tab{
+	width : 60%;
+}
+.support-detail-tab h3{
+	padding : 10px 0;
+	color : #07CBE5;
+}
+.tab{
+	padding : 10px 0;
+}
+
+.payment-tab{
+	width : 40%;
+	padding : 10px 15px;
+	border : 1px solid #D5D5D5;
+	border-radius : 10px;
+	display : inline-block;
+}
+
+.payment-info{
+	padding : 5px 10px;
+}
+.payment-info h4{
+	padding : 10px 0;
+	color : #FE0D49;
+}
+#tab01 th{
+	padding : 10px;
+	padding-right : 30px;
+}
+#tab01 input[name=phone]{
+	width : 200px;
+	height : 30px;
+	padding : 5px 7px;
+	border : 1px solid #D5D5D5;
+}
+#tab02 th{
+	padding : 10px;
+	padding-right : 30px;
+}
+#tab02 input[name=name]{
+	width : 200px;
+	height : 30px;
+	padding : 5px 7px;
+	border : 1px solid #D5D5D5;
+}
+.address h4{
+	padding : 10px;
+}
+input[name=payMethod]{
+	margin-left : 10px;
+	margin-right : 5px;
+}
+.payment-info p{
+	text-align : left;
+	font-size : 10pt;
+}
+.payment-info span{
+	color : #FE0D49;
+}
+.pay-btn{
+	text-align : center;
+	padding-top : 20px;
+}
+#payBtn {
+	width : 200px;
+	height : 50px;
+	background-color : #FE0D49;
+	color : white;
+	cursor : pointer;
+	border : none;
+	font-size : 16pt;
+}
+.card-pay{
+	margin-top : 20px;
+	width : 370px;
+	height : 130px;
+	padding : 15px 20px;
+	border : 1px solid #07CBE5;
+	border-radius : 10px;
+}
+.card-pay i{
+	color : #d5d5d5;
+	display : inline-block;
+}
+.card-info{
+	display : inline-block;
+	padding-left : 10px;
+}

@@ -1,0 +1,99 @@
+@charset "EUC-KR";
+
+article {
+	max-width: 1100px;
+}
+
+#percent {
+	background-color: #D5D5D5;
+	height: 10px;
+	width: 300px;
+}
+
+#percent_num {
+	background-color: #138396;
+	height: 10px;
+	width: 200px;
+}
+
+.funding-introduction {
+	display: flex;
+}
+
+.funding-detail-img img{
+	width : 500px;
+	height : 400px;
+}
+.funding-detail-desc {
+	padding-left : 40px;
+}
+.funding-detail-desc h2{
+	color : #138396;
+}
+.funding-current{
+	padding : 20px 0;
+}
+.funding-current h4{
+	padding : 5px 0;
+	color: #07CBE5;
+}
+.funding-current span{
+	font-size : 20pt;
+}
+#last_day{
+	float : right;
+}
+.funding_btns{
+	padding-top : 20px;
+}
+.funding_btns input[type=button]{
+	border : 1px solid #07CBE5;
+	background-color : white;
+	color : #07CBE5;
+	font-size : 15pt;
+	padding : 4px 7px;
+	height : 50px;
+	cursor : pointer;
+	border-radius : 10px;
+}
+#support_btn{
+	width : 150px;
+	border : none;
+	background-color : #FE0D49;
+	color : white;
+}
+.funding-detail-tab{
+	padding-top :20px; 
+	display : flex;
+}
+.funding-tab{
+	width : 60%;
+	padding-right : 20px;
+}
+
+.funding-detail-tab h3{
+	padding : 10px 0;
+	color : #07CBE5;
+}
+.tab{
+	padding : 10px 0;
+}
+.creator-tab{
+	width : 40%;
+	padding : 10px 15px;
+	border : 1px solid #D5D5D5;
+	border-radius : 10px;
+	display : inline-block;
+}
+.creatorimg{
+	text-align : center;
+}
+#creator-img{
+	height : 150px;
+}
+.creator-info{
+	padding : 5px 10px;
+}
+.creator-info h4{
+	padding : 10px 0;
+}
