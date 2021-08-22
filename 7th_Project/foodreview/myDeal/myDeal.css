@@ -1,0 +1,142 @@
+@charset "EUC-KR";
+
+.mydeal_nav {
+	margin-top : 20px;
+	height: 60px;
+}
+.inner_nav{
+	height : 60px;
+}
+.inner_nav ul {
+	text-align : center;
+}
+.inner_nav_item {
+	display : inline-block;
+	height : 60px;
+	width : 200px;
+}
+
+.inner_nav_item a{
+	color : white;
+	display : block; 
+	padding : 0 15px;
+	border-radius : 40px;
+	background-color : #FEE200;
+	font-weight : 700;
+	position : relative;
+	height : 60px;
+	line-height : 60px;
+}
+.inner_nav_item a:hover{
+	background-color : orange;
+}
+.mydeal_available {
+	margin-top : 20px;
+}
+.count {
+	margin-left : 50px;
+	font-size : 15pt;
+	color : gray;
+}
+.no_list{
+	margin : 20px auto;
+	border : 1px solid orange;
+	background-color : white;
+	height : 100px;
+	text-align : center;
+	font-size : 15pt;
+	line-height : 100px;
+}
+.mydeal_available_list{
+	margin-top : 20px;
+	height : 250px;
+}
+.available_list_box{
+	margin-right : 10px;
+	padding : 10px 10px;
+	width : 250px;
+	height : 250px;
+	background-color : white;	
+	float : left;
+}
+
+#available_thumb{
+	text-align : center;
+	width : 230px;
+	height : 150px;
+}
+.available_info{
+	text-align : center;
+	height : 70px;
+}
+.rest_name{
+	font-size : 13pt;
+	font-weight : bold;
+}
+.due{
+	color : gray;
+	font-size : 10pt;
+}
+.due_count{
+	margin-top : 10px;
+	color : red;
+}
+.mydeal_history{
+	margin-top : 50px;
+}
+.history_title{
+	margin-left : 50px;
+	font-size : 15pt;
+	color : gray;
+}
+.history_box{
+	margin-top : 20px;
+	padding : 10px 20px;
+	height : 240px;
+	background-color : white;
+	
+}
+.history_container{
+	display : flex;
+}
+#thumb{
+	width : 230px;
+	height : 220px;
+}
+.summary{
+	margin-left : 20px;
+}
+.title {
+	width : 730px;
+	font-size : 15pt;
+	display : flex;
+	justify-content : space-between;
+}
+.state{
+	border : 1px solid orange;
+	color : orange;
+	padding : 2px;
+}
+.deal_name{
+	margin-top : 5px;
+	font-size : 20pt;
+}
+.buy_due{
+	color : gray;
+}
+.info{
+	margin-top : 10px;
+	font-size : 13pt;
+}
+.deal_info{
+	margin-top : 5px;
+}
+#head{
+	color : gray;
+}
+#head::after{
+	content : "|";
+	color : orange;
+	margin : 0 10px;
+	font-weight : bold;
+}
