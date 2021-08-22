@@ -1,0 +1,121 @@
+ * {margin: 0; padding: 0; box-sizing: border-box;}
+            a {text-decoration: none; color: #000000;}
+            ul, li {list-style: none;}
+            .wrap {min-width: 1100px; margin: 0 auto;}
+            /*
+                메인컬러 : #FEE200 
+                메인 서브 컬러 : #FFB10A
+                섹션 배경 컬러 : #FFFFC8
+                회색, 하단 : #7F7F7F
+            */
+            
+            
+            /*  헤더 영역 */
+            
+            
+            /* 헤더 네비 */
+            header {
+                width: 100%;
+                background-color: #FEE200;
+            }
+            header .header_nav {
+                width: 100%;
+                height: 65px;
+                background-color: #FEE200;
+                display: inline-block;
+            }  
+            header .header_nav .logo {
+                padding: 10px 25px;
+                display: inline-block;
+            }
+            
+            header .header_nav .logo a img {
+                width: 130px;
+            }
+            
+            header .header_nav ul{
+                overflow: hidden;
+                display: inline;
+            }
+            header .header_nav ul li {
+                float: right;
+                padding: 25px;
+            }
+            header .header_nav ul li a{
+                color: #ffffff;
+            }
+            
+            /* 헤더 메인 */
+            header .header_main {
+                height: 250px;
+                background-color: #ffffff;
+                background-image: url();
+                text-align: center;
+            }
+            header .header_main .main_title{
+                padding: 30px;
+                padding-top: 70px;
+            }
+            header .header_main .main_title .logo_you{
+                color: #FFB10A;
+            }
+            header .header_main .main_title .logo_can{
+                color: #C2142D;
+            }
+            header .header_main .search_bar{
+                width: 400px;
+                height: 50px;
+                margin: 0 auto;
+                border: 2px solid #FEE200;
+                border-radius: 25px;
+                position: relative;
+            }
+            header .header_main .search_bar .search_text{
+                width: 250px;
+                padding: 10px;
+                position: absolute;
+                left: 20px;
+                top : 6px;
+                border: none;
+                
+            }
+            header .header_main .search_bar button{
+                position: absolute;
+                right: -1px;
+                top: -2px;
+                padding: 15px 40px;
+                color: #ffffff;
+                background-color: #FEE200;
+                border: 0.5px solid #FEE200;
+                border-radius: 25px;
+            }
+            
+            /* 섹션 */
+            section {
+                background-color: #FFFFC8;
+                width: 100%;
+            }
+            section .wrap {
+                background-color: #FFFFC8;
+            }
+            section .wrap > article {
+                margin: 0 auto;
+                padding: 30px;
+                max-width: 1100px;
+                overflow: hidden;
+            }
+            
+            
+            
+            /* 풋터 */
+            footer {
+                background-color: #7f7f7f;
+                text-align: center;
+                color: #ffffff;
+            }
+            footer .wrap{
+                background-color: #7f7f7f;
+            }
+            footer h5 {
+                padding: 30px;
+            }

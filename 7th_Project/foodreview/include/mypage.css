@@ -1,0 +1,37 @@
+@charset "EUC-KR";
+*{
+	margin : 0;
+	padding : 0;
+}
+ul{
+	list-style : none;
+}
+a{
+	text-decoration : none;
+}
+a:active{ 
+	color : orange;
+}
+.mypage_nav{
+	height : 80px;
+	border-bottom : 1px solid orange;
+}
+.page_nav{
+	height : 80px;
+}
+.page_nav > ul {
+	text-align : center;
+}
+.page_nav_item{ 
+	display : inline-block;
+	width : 80px;
+	height : 80px;
+}
+.page_nav_item > a{ 
+	display : block; 
+	padding : 0 15px;
+	font-weight : 700;
+	position : relative;
+	height : 80px;
+	line-height : 80px;
+}
