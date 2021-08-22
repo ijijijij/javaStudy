@@ -1,0 +1,160 @@
+@charset "EUC-KR";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.wrap {
+	min-width: 1100px;
+	margin: 0 auto;
+}
+/*
+                메인컬러 : #07CBE5 
+                메인 서브 컬러 : #138396, #10223b
+                섹션 배경 컬러 : #FDFBFC
+                하단 : #138396
+            */
+
+/*  헤더 영역 */
+
+/* 헤더 네비 */
+header {
+	width: 100%;
+	background-color: #07CBE5;
+}
+
+header .header_nav {
+	width: 100%;
+	height: 80px;
+	background-color: #07CBE5;
+	display: inline-block;
+	font-family: Segoe UI Black;
+}
+
+header .header_nav .logo {
+	padding: 10px 25px;
+	position : relative;
+	top : -30%;
+	display: inline-block;
+}
+
+header .header_nav .logo a img {
+	width: 130px;
+}
+
+header .header_nav ul {
+	overflow: hidden;
+	display: inline-block;
+}
+
+header .header_nav ul li {
+	display: inline-block;
+	margin: 0 15px;
+	line-height: 80px;
+}
+
+header .header_nav ul li a {
+	color: #ffffff;
+	font-size: 12pt;
+}
+header .header_nav .utils {
+	float : right;
+	justify-content : space-between;
+}
+header .header_nav .search_bar {
+	line-height: 80px;
+	float: right;
+}
+
+header .header_nav .search_bar .search_text {
+	width: 200px;
+	padding: 10px;
+	border: none;
+	border-radius: 50px;
+}
+
+header .header_nav .search_bar button {
+	padding: 9px 15px;
+	color: #ffffff;
+	background-color: #10223b;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	font-family: Segoe UI Black;
+	font-size: 10pt;
+}
+
+header .header_nav .login_join {
+	line-height: 80px;
+	float: right;
+	padding : 0 20px;
+}
+
+header .header_nav .login_join a {
+	color: #ffffff;
+	font-size: 11pt;
+}
+
+header .header_nav .login_join span {
+	padding: 10px;
+	color: #10223b;
+}
+
+header .header_nav .account {
+	width: 100px;
+	line-height: 80px;
+	float: right;
+	margin-right : 25px;
+}
+
+header .header_nav .account a {
+	font-size: 12pt;
+	color: #FE0D49;
+	border: 3px solid #10223b;
+	padding: 2px 7px;
+	padding-bottom: 9px;
+}
+
+/* 섹션 */
+section {
+	background-color: #FDFBFC;
+	width: 100%;
+}
+
+section .wrap {
+	background-color: #FDFBFC;
+}
+
+section .wrap>article {
+	margin: 0 auto;
+	padding: 30px;
+	max-width: 1100px;
+	overflow: hidden;
+}
+
+/* 풋터 */
+footer {
+	background-color: #138396;
+	text-align: center;
+	color: #ffffff;
+}
+
+footer .wrap {
+	background-color: #138396;
+}
+
+footer h5 {
+	padding: 30px;
+}
